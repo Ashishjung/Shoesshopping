@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    height: 5rem;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(133, 128, 128, 0.479);
+}
+header h1{
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+header .uil-shopping-cart-alt{
+   font-size: 2rem;
+   margin-right: 2rem;
+   cursor: pointer;
+}
+.cart-box{
+    width: 10%;
+    height: 5rem;
+ display: grid;
+    place-items: center;
+    position: relative;
+}
+header .cart-box p{
+    position: absolute;
+    top:1.3rem;
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+}
+.product-box{
+    width: 100%;
+    height: 38rem;
+background-color: rgb(238, 233, 233);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,18rem);
+    grid-gap:10px;
+    font-family: 'Poppins', sans-serif;
+}
+.data-boxes{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: .5rem;
+    border-radius: .5rem;
+}
+.shoes-img{
+    width: 100%;
+    height:10rem;
+    object-fit: cover;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+   }
+   .shoe-detail{
+       display:flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+       height: 2rem;
+       }
+   .shoe-detail h2{
+       margin: .2rem;
+       margin-left: .5rem;
+       font-weight: 400;
+       font-size: 1.2rem;
+       font-weight: 400;
+   }
+ h6{
+     margin-top: .5rem;
+     margin-left: .5rem;
+     font-weight: 400;
+ }
+ h5{
+     float: right;
+     margin:1.5rem .5rem 0 0 ;
+     cursor: pointer;
+     font-weight: 400;
+ }
+ .cart-box .navlink{
+     text-decoration: none;
+  color: black;
+ }
